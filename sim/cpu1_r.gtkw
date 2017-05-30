@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Thu Apr 13 09:45:38 2017
+[*]
+[dumpfile] "/home/hpalombo/oven/soc_shared/top.vcd"
+[dumpfile_mtime] "Thu Apr 13 09:41:39 2017"
+[dumpfile_size] 657076
+[savefile] "/home/hpalombo/oven/soc/sim/cpu1_r.gtkw"
+[timestart] 335300
+[size] 1920 1056
+[pos] -1 -1
+*-15.533218 508600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 435
+[sst_expanded] 1
+[sst_vpaned_height] 688
+@28
+clock
+@22
++{(1) cpu_req1[72:0]} cpu_req1[72:0]
++{(2) snp_req2[72:0]} snp_req2[72:0]
++{(3) snp_res2[72:0]} snp_res2[72:0]
++{(4) bus_req1[72:0]} bus_req1[72:0]
+@28
++{(5) rvalid} rvalid
+@22
+[color] 7
+mem.rdata[31:0]
+@28
++{(6) rdvalid} rdvalid
+@22
++{(7) bus_res1[552:0]} bus_res1[552:0]
++{(8) cpu_res1[72:0]} cpu_res1[72:0]
+@200
+-(8) is high at 508600 fs
+-Mem signals
+@28
+mem.rvalid_in
+@22
+mem.raddr[31:0]
+mem.rlen[9:0]
+mem.rsize[9:0]
+@28
+mem.rvalid_in
+@29
+mem.rdready
+[pattern_trace] 1
+[pattern_trace] 0

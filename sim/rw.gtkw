@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Thu May 11 21:33:20 2017
+[*]
+[dumpfile] "/home/hernan/oven/soc/top.vcd"
+[dumpfile_mtime] "Thu May 11 20:26:04 2017"
+[dumpfile_size] 1248799
+[savefile] "/home/hernan/oven/soc/sim/rw.gtkw"
+[timestart] 0
+[size] 1219 776
+[pos] -1 -1
+*-17.741432 308000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] proc0_ent.rwt_ent.
+[treeopen] proc1_ent.
+[treeopen] proc1_ent.cache_ent.
+[sst_width] 225
+[signals_width] 381
+[sst_expanded] 1
+[sst_vpaned_height] 328
+@28
+clock
+@22
++{(1) cpu_req1[72:0]} cpu_req1[72:0]
++{(2) snp_req2[72:0]} snp_req2[72:0]
++{(3) snp_res2[72:0]} snp_res2[72:0]
++{(4) bus_req1[72:0]} bus_req1[72:0]
+@28
++{(5) rvalid} rvalid
+[color] 7
++{(6) rdvalid} rdvalid
+@22
++{(7) bus_res1[552:0]} bus_res1[552:0]
++{(8) cpu_res1[72:0]} cpu_res1[72:0]
+@200
+-(8) is high at 508600 fs
+-Mem signals
+@28
+reset
+@22
+proc0_ent.pwrt_ent.r[31:0]
+interconnect.mem_write1[75:0]
+@29
+interconnect.mem_write_ack1
+@22
+interconnect.bus_res1_arbitor.din1[552:0]
+interconnect.tomem_p[75:0]
+interconnect.bus_res_mem_to_c0[552:0]
+@28
++{rwt_done} proc0_ent.rwt_ent.done_o
++{pwrt_done} proc0_ent.pwrt_ent.done_o
++{proc0_done} proc0_ent.done_o
+gfx_done
+usb_done
+uart_done
+proc1_done
+@22
+cpu_req2[72:0]
+cpu_res2[72:0]
+snp_req1[72:0]
+cpu_req2[72:0]
+proc1_ent.cache_ent.cpu_req_fifo.dataout[72:0]
+proc1_ent.cache_ent.tmp_cpu_res1[72:0]
+bus_req2[72:0]
+@28
+wdvalid
+@22
+bus_res2[552:0]
+@28
+wdataready
+[pattern_trace] 1
+[pattern_trace] 0

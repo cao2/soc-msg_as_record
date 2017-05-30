@@ -1,0 +1,8 @@
+[cpu1] -- (1) cpu_req_out;\n cpu_req;\n cpu_req_in --> [c1]
+[c1] -- (2) snp_req_out;\n snp_req2;\n snp_req_in --> [c2] 
+[c2] -- (3) snp_res_out;\n snp_res2;\n snp_res_in --> [c1]
+[c1] -- (4) dn_snp_req_out;\n bus_req1;\n cache1_req_in --> [ic]
+[ic] -- (5) \[rvalid_out,..];\n rvalid;\n rvalid_in --> [mem]
+[mem] -- (6) \[rdvalid_out,..];\n rdvalid;\n rdvalid_in --> [ic]
+[ic] -- (7) bus_res1_out;\n bus_res1;\n dn_snp_res_in --> [c1]
+[c1] -- (8) cpu_res_out;\n cpu_res;\n cpu_res_in --> [cpu1]

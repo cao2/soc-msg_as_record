@@ -1,0 +1,1 @@
+([soc], [logger], [cpu1_r_mon], [cpu2_w_mon], [gfx_r_mon]) {label: top_wrapper; border: bold-dash;}

@@ -1,0 +1,20 @@
+file: cache.vhd
+
+(0) pcs: bus_res_fifo_p
+
+(1) pcs: bus_res_p
+
+(2) pcs: cpu_req_fifo_p
+
+(3) pcs: cpu_req_p
+
+(4) pcs: mem_control_unit
+
+(5) pcs: snp_req_fifo_p
+
+(6) pcs: snp_req_p
+
+(7) pcs: ureq_req_fifo_p
+
+(8) pcs: ureq_req_p
+

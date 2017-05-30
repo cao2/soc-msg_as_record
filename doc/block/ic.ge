@@ -1,0 +1,8 @@
+[gfx_fif_p\n audio_fif_p\n usb_fif_p\n uart_fif_p\n snp_res1_fif_p\n wb_req1_fif_p\n wb_req2_fif_p |
+gfx_ureq_p\n audio_ureq_p\n usb_ureq_p\n uart_ureq_p |
+snp_res1_p\n pwr_res_p\n |
+wb_1_p\n wb_2_p\n |
+cache_req1_p\n cache_req2_p |
+tomem_chan\n togfx_chan\n tousb_chan\n touart_chan\n toaudio_chan |
+mem_write\n gfx_write\n uart_write\n audio_write\n usb_write |
+ic_pwr_test]

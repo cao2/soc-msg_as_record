@@ -1,0 +1,13 @@
+# PWR_T
+
+#[] -> [ic],[gfx],[audio],[usb],[uart]
+#[] ----> [pwr]
+
+[cpu1] -- (1) cpu_req_o;\n cpu_req1;\n cpu_req_i --> [cache1]
+[cache1] -- (2) cache1_req_o;\n bus_req1;\n cache1_req_i --> [ic]
+[ic]  -- (3) pwr_req_o;\n ic_pwr_req;\n req_i --> [pwr]
+[pwr] -- (4) req_i\[:2\] = GFX_ID / gfx_req_out;\n pwr_gfx_req;\n pwr_req_i --> [gfx]
+[gfx] -- (5) pwr_res_o;\n pwr_gfx_res;\n gfx_res_i --> [pwr]
+[pwr] -- (6) res_o;\n ic_pwr_res;\n pwr_res_i --> [ic]
+[ic] -- (7) bus_res1_o;\n bus_res1;\n bus_res_i --> [cache1]
+[cache1] -- (8) cpu_res_o;\n cpu_res1;\n cpu_res_i\n  --> [cpu1]

@@ -1,0 +1,1 @@
+([cpu], [CPU_R_TEST], [CPU_W_TEST], [CPU_W20_TEST]) {label: cpu_wrapper; border: bold-dash;}

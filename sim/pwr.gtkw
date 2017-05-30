@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Wed May 10 18:35:25 2017
+[*]
+[dumpfile] "/home/hpalombo/oven/soc/top.vcd"
+[dumpfile_mtime] "Wed May 10 18:31:32 2017"
+[dumpfile_size] 642508
+[savefile] "/home/hpalombo/oven/soc/sim/pwr.gtkw"
+[timestart] 0
+[size] 1920 1056
+[pos] -1 -1
+*-15.590152 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] interconnect.
+[treeopen] power.
+[sst_width] 225
+[signals_width] 525
+[sst_expanded] 1
+[sst_vpaned_height] 343
+@28
+clock
+reset
+@22
++{(1) cpu_req1[72:0]} cpu_req1[72:0]
+[color] 7
++{(2) bus_req1[72:0]} bus_req1[72:0]
++{(3) ic_pwr_req[72:0]} ic_pwr_req[72:0]
+[color] 3
+power.req_i[72:0]
+[color] 2
+power.pwr_req_fifo.dataout[72:0]
+[color] 7
+power.gfx_req_o[72:0]
++{(4) pwr_gfx_req[72:0]} pwr_gfx_req[72:0]
++{(5) pwr_gfx_res[72:0]} pwr_gfx_res[72:0]
+[color] 7
++{(5) pwr_gfx_res[72:0]} pwr_gfx_res[72:0]
+[color] 3
+power.gfx_res_i[72:0]
++{(6) ic_pwr_res[72:0]} ic_pwr_res[72:0]
+[color] 3
+interconnect.pwr_res_i[72:0]
+[color] 7
+interconnect.bus_res1_o[552:0]
++{(7) bus_res1[552:0]} bus_res1[552:0]
+[color] 2
++{(8) cpu_res1[72:0]} cpu_res1[72:0]
+[pattern_trace] 1
+[pattern_trace] 0

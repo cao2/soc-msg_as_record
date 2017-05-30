@@ -1,0 +1,10 @@
+# GFX_UP_RD_T
+
+[gfx] - (1) upreq_out;\n gfx_upreq;\n gfx_upreq_in -> [ic]
+[ic] - (2) up_snp_req_out;\n up_snp_req;\n up_snp_req_in -> [c1]
+[c1] - (3) snp_req_out;\n snp_req2;\n snp_req_in -> [c2]
+[c2] - (4) snp_res_out;\n snp_res2;\n snp_res_in -> [c1]
+[c1] - (5) up_snp_res_out;\n up_snp_res;\n up_snp_res_in -> [ic]
+[ic] - (6) rvalid_out;\n rvalid;\n rvalid_in -> [mem]
+[mem] - (7) rres_out;\n rres;\n rres_in -> [ic]
+[ic] - (8) gfx_upres_out;\n gfx_upres;\n upres_in -> [gfx]

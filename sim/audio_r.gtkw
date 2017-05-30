@@ -1,0 +1,47 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Tue Apr 18 14:21:37 2017
+[*]
+[dumpfile] "/home/hernan/oven/soc/top.vcd"
+[dumpfile_mtime] "Tue Apr 18 14:12:21 2017"
+[dumpfile_size] 215502
+[savefile] "/home/hernan/oven/soc/sim/audio_r.gtkw"
+[timestart] 0
+[size] 1219 776
+[pos] -220 -149
+*-15.771711 51600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] interconnect.gfx_fifo.
+[treeopen] interconnect.snp1_arbitor.
+[sst_width] 225
+[signals_width] 241
+[sst_expanded] 1
+[sst_vpaned_height] 473
+@28
+clock
+@22
++{audio : upreq_out[72:0]} audio.upreq_out[72:0]
++{(1) audio_upreq[72:0]} audio_upreq[72:0]
+[*] [color] 7
+[*] +{ic.audio_fifo_dout[72:0]} interconnect.audio_fifo_dout[72:0]
+[*] [color] 7
+[*] +{interconnect.snp1_arbitor.din2[75:0]} interconnect.snp1_arbitor.din2[75:0]
+[*] [color] 7
+[*] interconnect.snp1_arbitor.dout[75:0]
+@23
++{(2) up_snp_req[75:0]} up_snp_req[75:0]
+[*] @28
+[*] [color] 7
+[*] +{ic : snp1_arbitor : ack2} interconnect.snp1_arbitor.ack2
+[*] @22
+[*] [color] 7
+[*] interconnect.snp1_arbitor.dout[75:0]
++{(3) snp_req2[72:0]} snp_req2[72:0]
++{(4) snp_res2[72:0]} snp_res2[72:0]
++{(5) up_snp_res[75:0]} up_snp_res[75:0]
+@28
++{(6) rvalid} rvalid
++{(7) rres[1:0]} rres[1:0]
+@22
++{(8) gfx_upres[72:0]} gfx_upres[72:0]
+[pattern_trace] 1
+[pattern_trace] 0

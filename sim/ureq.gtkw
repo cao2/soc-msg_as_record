@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon May  1 18:21:56 2017
+[*]
+[dumpfile] "/home/hpalombo/oven/soc/top.vcd"
+[dumpfile_mtime] "Mon May  1 18:21:50 2017"
+[dumpfile_size] 661966
+[savefile] "/home/hpalombo/oven/soc/sim/ureq.gtkw"
+[timestart] 0
+[size] 1920 1056
+[pos] -1 -1
+*-15.771711 79900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] interconnect.gfx_fifo.
+[treeopen] interconnect.snp1_arbitor.
+[sst_width] 225
+[signals_width] 425
+[sst_expanded] 1
+[sst_vpaned_height] 473
+@28
+clock
+@22
++{(1) gfx_upreq[72:0]} gfx_upreq[72:0]
+[color] 7
++{ic : gfx_fifo_dout[72:0]} interconnect.gfx_fifo_dout[72:0]
+[color] 7
+interconnect.snp1_arbitor.din2[75:0]
+[color] 7
+interconnect.snp1_arbitor.dout[75:0]
++{(2) up_snp_req[75:0]} up_snp_req[75:0]
+@28
+[color] 7
++{ic : snp1_arbitor : ack2} interconnect.snp1_arbitor.ack2
+@22
+[color] 7
+interconnect.snp1_arbitor.dout[75:0]
++{(3) snp_req2[72:0]} snp_req2[72:0]
++{(4) snp_res2[72:0]} snp_res2[72:0]
++{(5) up_snp_res[75:0]} up_snp_res[75:0]
+@28
++{(6) rvalid} rvalid
++{(7) rres[1:0]} rres[1:0]
+@22
++{(8) gfx_upres[72:0]} gfx_upres[72:0]
+@200
+-
+@22
++{(1) audio_upreq[72:0]} audio_upreq[72:0]
++{(2) up_snp_req[75:0]} up_snp_req[75:0]
++{(3) snp_req2[72:0]} snp_req2[72:0]
++{(4) snp_res2[72:0]} snp_res2[72:0]
++{(5) up_snp_res[75:0]} up_snp_res[75:0]
+@28
++{(6) rvalid} rvalid
++{(7) rres[1:0]} rres[1:0]
+@22
++{(8) audio_upres[72:0]} audio_upres[72:0]
+@200
+-
+@22
++{(1) usb_upreq[72:0]} usb_upreq[72:0]
++{(8) usb_upres[72:0]} usb_upres[72:0]
+@200
+-
+@22
+uart_upreq[72:0]
+uart_upres[72:0]
+[pattern_trace] 1
+[pattern_trace] 0

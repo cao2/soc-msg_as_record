@@ -1,0 +1,4 @@
+[cpu_req_fifo_p\n snp_req_fifo_p\n up_snp_req_fifo_p\n bus_res_fifo_p]
+[cpu_req_p\n up_snp_req_p\n snp_req_p\n bus_req_p]
+[bus_res_p\n pwr_res_p]
+[mcu_p]

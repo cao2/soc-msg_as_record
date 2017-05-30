@@ -1,0 +1,26 @@
+#ports: Ports(i=set(['reset', 'cpu_res_i', 'full_c_i', 'id_i', 'Clock']), o=set(['cpu_req_o']))
+#signals: set(['junk', 'addr', 'next_st', 'st', 'sim_end', 'data'])
+#unused sigs: set(['junk', 'next_st', 'full_c_i'])
+#ps: [Pcs(name=clk_counter, start=34, end=44, readset=set(['sim_end', 'id_i', 'st']), writeset=set([])), Pcs(name=cpu_test, start=53, end=446, readset=set(['reset', 'addr', 'Clock', 'sim_end', 'id_i', 'st', 'cpu_res_i', 'data']), writeset=set(['cpu_req_o', 'sim_end']))]
+[reset] {border:none;}
+[cpu_res_i] {border:none;}
+[id_i] {border:none;}
+[Clock] {border:none;}
+[cpu_req_o] {border:none;}
+[addr] {border: none;}
+[st] {border: none;}
+[sim_end] {border: none;}
+[data] {border: none;}
+[id_i] -> [clk_counter]
+[sim_end] -> {style:dotted;} [clk_counter]
+[st] -> {style:dotted;} [clk_counter]
+[reset] -> [cpu_test]
+[Clock] -> [cpu_test]
+[id_i] -> [cpu_test]
+[cpu_res_i] -> [cpu_test]
+[addr] -> {style:dotted;} [cpu_test]
+[sim_end] -> {style:dotted;} [cpu_test]
+[st] -> {style:dotted;} [cpu_test]
+[data] -> {style:dotted;} [cpu_test]
+[cpu_test] -> [cpu_req_o]
+[cpu_test] -> {style:dotted;} [sim_end]

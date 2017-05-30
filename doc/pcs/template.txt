@@ -1,0 +1,7 @@
+# TEMPLATE
+
+[han1|han2] {basename: cpu}
+[ inputs ] {border: none;} -> {style: double} [cpu.0]
+[cpu.1] -> {style: double} [ outputs ] {border: none; }
+[cpu.0] -> [cpu.1]
+[cpu.1] -> [cpu.1]

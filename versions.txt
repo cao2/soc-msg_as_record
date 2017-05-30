@@ -1,0 +1,5 @@
+v0.1 (2017-04-17) :
+     - petersons algorithm runs but no reads or writes are actually returning any valid data
+     - rnd_vect returns same value if requests done at every clock cycle
+v0.2 (2017-04-21) :
+     - added pwr flow; tested cpu1 pwr up request OK
